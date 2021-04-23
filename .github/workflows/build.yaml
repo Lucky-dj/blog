@@ -23,9 +23,9 @@ jobs:
         run: npm install && npm run build
       
       - name: Deploy Tencent Cloud COS
-        uses: hafixo/actions-coscmd@v1
+        uses: zkqiang/tencent-cos-action@v0.1.0
         with:
-          args: upload -rs --delete ./public/ / --ignore .git
+          args: delete -r -f / && upload -r ./public/ /
           secret_id: ${{ secrets.SECRET_ID }}
           secret_key: ${{ secrets.SECRET_KEY }}
           bucket: ${{ secrets.BUCKET }}
