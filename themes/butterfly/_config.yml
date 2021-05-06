@@ -91,10 +91,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
+index_img: "linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
+default_top_img: "linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)"
 
 # The banner image of archive page
 archive_img:
@@ -137,7 +137,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: 'Page Not Found'
+  subtitle: "Page Not Found"
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -409,7 +409,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: <a href="https://beian.miit.gov.cn/"><img class="icp-icon" src=""><span>粤ICP备19082630号-1</span></a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -549,7 +549,7 @@ canvas_fluttering_ribbon:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
-  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -594,7 +594,7 @@ beautify:
   enable: false
   field: post # site/post
   title-prefix-icon: '\f0c1'
-  title-prefix-icon-color: '#F47466'
+  title-prefix-icon-color: "#F47466"
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -736,9 +736,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '简'
+  msgToSimplifiedChinese: "简"
 
 # Read Mode (閲讀模式)
 readmode: true
@@ -814,8 +814,8 @@ aplayerInject:
 snackbar:
   enable: false
   position: bottom-left
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
-  bg_dark: '#121212' # The background color of Toast Notification in dark mode
+  bg_light: "#49b1f5" # The background color of Toast Notification in light mode
+  bg_dark: "#121212" # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
@@ -856,7 +856,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+  # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
 
