@@ -80,7 +80,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://images-1252879329.cos.ap-guangzhou.myqcloud.com/blog/avatar/20210428182529.jpg
 
 # Avatar (頭像)
 avatar:
@@ -91,7 +91,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: "linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)"
+index_img: https://images-1252879329.cos.ap-guangzhou.myqcloud.com/blog/avatar/89656398_p0.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: "linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)"
