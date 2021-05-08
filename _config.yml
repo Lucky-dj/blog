@@ -104,3 +104,17 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+algolia:
+  appId: "2PQCNF5VWF"
+  apiKey: "98f07bc57080c39cb3e92f7af9bddbfc"
+  adminApiKey: "85f70772949e47ffc365b096fe1fb096"
+  chunkSize: 5000
+  indexName: "hexo"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - permalink
+    - category
+    - tags
+    - title

@@ -19,8 +19,14 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Install package
+        run: npm install
+
+      - name: Clean And Algolia
+        run: hexo clean && hexo algolia
+
       - name: Build project
-        run: npm install && npm run build
+        run: npm run build
       
       - name: Deploy Tencent Cloud COS
         uses: zkqiang/tencent-cos-action@v0.1.0
