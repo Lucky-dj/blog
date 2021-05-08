@@ -156,7 +156,7 @@ post_meta:
 
 # wordcount (字數統計)
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -417,7 +417,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 096b6e312704781f6b569505d3614974
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
