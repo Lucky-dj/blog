@@ -362,7 +362,6 @@ twikoo:
   envId: hexo-comments-5gajh42qa0382515
   region: ap-guangzhou
   visitor: true
-  placeholder: 在昵称款里输入QQ号并回车，可快速获取QQ头像等信息
   option:
 
 # Chat Services
@@ -882,7 +881,7 @@ CDN:
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.3.0/dist/twikoo.all.min.js
   waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
 
   # share
