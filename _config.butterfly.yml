@@ -359,9 +359,10 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: hexo-comments-8gj5uhtv1d66b2ab
-  region: ap-shanghai
+  envId: hexo-comments-5gajh42qa0382515
+  region: ap-guangzhou
   visitor: true
+  placeholder: 在昵称款里输入QQ号并回车，可快速获取QQ头像等信息
   option:
 
 # Chat Services
