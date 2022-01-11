@@ -359,9 +359,9 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo-service-lucky-dj.cloud.okteto.net
-  region:
+  enable: true
   visitor: true
+  envId: https://twikoo.xdj94.cn
   option:
 
 # Chat Services
@@ -881,7 +881,7 @@ CDN:
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.3.0/dist/twikoo.all.min.js
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.4.15/dist/twikoo.all.min.js
   waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
 
   # share
