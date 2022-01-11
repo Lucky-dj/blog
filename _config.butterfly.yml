@@ -359,8 +359,8 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: hexo-comments-5gajh42qa0382515
-  region: ap-guangzhou
+  envId: https://twikoo-service-lucky-dj.cloud.okteto.net
+  region:
   visitor: true
   option:
 
@@ -710,7 +710,7 @@ newest_comments:
   storage: 10 # unit: mins, save data to localStorage
   avatar: true
   # You can only choose one, or neither
-  valine: true
+  valine: false
   github_issues:
     enable: false
     repo:
@@ -718,7 +718,7 @@ newest_comments:
     enable: false
     forum:
     api_key:
-  twikoo: false
+  twikoo: true
   waline: false
 
 # Bottom right button (右下角按鈕)
