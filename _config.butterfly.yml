@@ -137,7 +137,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: "Page Not Found"
+  subtitle: "页面没有找到"
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -262,7 +262,6 @@ comments:
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
     - Twikoo
-    - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -409,7 +408,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2017
   custom_text: <a href="https://beian.miit.gov.cn/"><img class="icp-icon" src=""><span>粤ICP备19082630号</span></a>
   copyright: true # Copyright of theme and framework
 
@@ -445,7 +444,7 @@ microsoft_clarity:
 
 # Google Adsense (谷歌廣告)
 google_adsense:
-  enable: true
+  enable: false
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client: ca-pub-5841783929549542
@@ -699,8 +698,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 7/7/2016 15:48:22
 
 # Aside widget - Newest Comments
 newest_comments:
